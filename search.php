@@ -21,27 +21,26 @@
         
             $min_length = 3; //sets minimum query length
         
-            if(strlen($query) >= $min_length){
+            if(strlen($query) >= $min_length) {
                 
                 $query = htmlspecialchars($query); //html to equivalent
                 
                 $query = mysql_real_escape_string($query); //prevents SQL injections
                 
-                $raw_results = mysql_query("SELECT * FROM books 
+                $raw_results = mysql_query("SELECT * FROM books
                     WHERE (`title` LIKE '%".$query."%') OR (`author` LIKE '%".$query."%')") or die(mysql_error());
-            }
-        
-            if(mysql_num_rows($raw_results) > 0){
-                // populates array
-                while($results = mysql_fetch_array($raw_results)){
-            
-            	    echo "<p><h3>".$results['title']."</h3>".$results['author']."</p>";
-                }
-             
-            }else{
                 
-                echo "No results";
-            }
+                if(mysql_num_rows($raw_results) > 0) {
+                    // populates array
+                    while($results = mysql_fetch_array($raw_results)) {
+                        
+            	        echo "<p><h3>".$results['title']."</h3>".$results['author']."</p>";
+                    }
+                    
+                }else{ echo "No results"; }
+                
+            }else{ echo "Minimum length is ".$min_length; }
+        
         ?>
     </body>
 </html>
