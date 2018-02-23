@@ -14,17 +14,14 @@
                 
                 on connection fail: error
              */
-        
             mysql_select_db("<Db name>") or die(mysql_error());
         
             $query = $_GET['query'];
-        
             $min_length = 3; //sets minimum query length
         
             if(strlen($query) >= $min_length) {
                 
                 $query = htmlspecialchars($query); //html to equivalent
-                
                 $query = mysql_real_escape_string($query); //prevents SQL injections
                 
                 $raw_results = mysql_query("SELECT * FROM books
@@ -39,7 +36,7 @@
                     
                 }else{ echo "No results"; }
                 
-            }else{ echo "Minimum length is ".$min_length; }
+            }else{ echo "Minimum search length is ".$min_length; }
         
         ?>
     </body>
