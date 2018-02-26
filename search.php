@@ -5,44 +5,35 @@
     </head>
     <body>
         <?php
-            echo "<p>This is the search</>";
+        require 'bhconnect.php';
         
-            mysql_connect("localhost", "bhweb", "supersecure") or die("Error connecting to database: ".mysql_error());
-            /*
-                "bhweb" -> username
-                "supersecure" -> password
+        $query = $_GET['query'];
+        $min_length = 3; //sets minimum query length
+
+        if(strlen($query) >= $min_length) {
+
+            $query = htmlspecialchars($query); //html to equivalent
+            $query = mysql_real_escape_string($query); //prevents SQL injections
+            
+            $raw_results = mysql_query("SELECT * FROM Books
+                WHERE (`title` LIKE '%".$query."%')
+                OR (`author` LIKE '%".$query."%')
+                OR (`ISBN` LIKE '%".$query."%')
+                OR (`type` LIKE '%".$query."%')
+                OR (`genre` LIKE '%".$query."%')") or die(mysql_error());
                 
-                on connection fail: error
-             */
-            mysql_select_db("bookharmony") or die(mysql_error());
-        
-            $query = $_GET['query'];
-            $min_length = 3; //sets minimum query length
-        
-            if(strlen($query) >= $min_length) {
+            if(mysql_num_rows($raw_results) > 0) {
+                // echo "<table id='Search Results'>";
                 
-                $query = htmlspecialchars($query); //html to equivalent
-                $query = mysql_real_escape_string($query); //prevents SQL injections
-                
-                $raw_results = mysql_query("SELECT * FROM Books
-                    WHERE (`title` LIKE '%".$query."%')
-                    OR (`author` LIKE '%".$query."%')
-                    OR (`ISBN` LIKE '%".$query."%')
-                    OR (`type` LIKE '%".$query."%')
-                    OR (`genre` LIKE '%".$query."%')") or die(mysql_error());
-                
-                if(mysql_num_rows($raw_results) > 0) {
-                    // echo "<table id='Search Results'>";
+                // populates array
+                while($result = mysql_fetch_array($raw_results)) {
                     
-                    // populates array
-                    while($result = mysql_fetch_array($raw_results)) {
-                        
-            	        echo "<p><h3>".$result['title']."</h3>".$result['author']."</p>";
-                    }
+                    echo "<p><h3>".$result['title']."</h3>".$result['author']."</p>";
+                }
                     
-                }else{ echo "No results"; }
+            }else{ echo "No results"; }
                 
-            }else{ echo "Minimum search is ".$min_length." characters"; }
+        }else{ echo "Minimum search is ".$min_length." characters"; }
         
         ?>
     </body>
