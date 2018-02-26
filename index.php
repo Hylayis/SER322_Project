@@ -26,13 +26,13 @@
 				 }
 			?>
 		</select>
-		    <input type="submit" id="similarusers" name="Find Similar" value="Find Similar">
-		    </form>
-		    </body>
-		    <form action="deleteusers.php" method="post">
-		        <h3>Delete Users</h3>
-		         Select a user: <br>
-		        <select id="removeusers">
+	    <input type="submit" id="similarusers" name="Find Similar" value="Find Similar">
+	    </form>
+	    </body>
+	    <form action="delete.php" method="post">
+		<h3>Delete Users</h3>
+		 Select a user: <br>
+		<select id="removeusers" name="removeusers">
 		        <?php
 				 require 'bhconnect.php';
 				 $query = "SELECT userID, userName FROM Users";
@@ -45,7 +45,7 @@
 				 	};
 				 }
 			?>
-			</select>
+		</select>
         <input type="submit" id="deleteusers" name="Delete User" value="Delete User">
     </form>
 </html>
