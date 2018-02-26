@@ -7,7 +7,7 @@
         <?php
         require 'bhconnect.php';
         
-        $query = $_GET['query'];
+        $query = $_GET['query']; //use $_POST?
         $min_length = 3; //sets minimum query length
 
         if(strlen($query) >= $min_length) {
