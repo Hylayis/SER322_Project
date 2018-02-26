@@ -22,7 +22,7 @@
             if ($sql === TRUE) {
                 echo "Book deleted successfully";
             } else {
-                echo "Error deleting Book: " . $conn->error; }
+                echo "Error deleting Book: " . $sql->error; }
         ?>
     </body>
 </html>
