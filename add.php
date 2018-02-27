@@ -15,19 +15,26 @@ if (mysqli_connect_errno())
 mysqli_select_db($mysql_database, $bd) 
     or die("Oops some thing went wrong");
 */
-echo "test";
 
-$xmlObject = $xmlDoc->getElementsByTagName('author');
+$xmlObject = $xmlDoc->getElementsByTagName('item');
 $itemCount = $xmlObject->length;
-echo "test";
+echo $itemCount;
 
 for ($i=0; $i < $itemCount; $i++){
   $authorID = $xmlObject->item($i)->getElementsByTagName('authorID')->item(0)->childNodes->item(0)->nodeValue;
   $name  = $xmlObject->item($i)->getElementsByTagName('name')->item(0)->childNodes->item(0)->nodeValue;
   $gender  = $xmlObject->item($i)->getElementsByTagName('gender')->item(0)->childNodes->item(0)->nodeValue;
-  $sql   = "INSERT INTO 'authors' (authorID, name, gender) VALUES ('$authorID', '$link', '$gender')";
-  mysqli_query($sql);
-  echo "Finished Item $authorID n<br/>";
+  $sql   = "INSERT INTO authors (authorID, name, gender) VALUES ('$authorID', '$name', '$gender');";
+  
+    if (mysqli_query($con, $sql)) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . mysqli_error($con);
+    }
 }
-echo "test";
+
+
+
+    mysqli_close($con);
+
 ?>
