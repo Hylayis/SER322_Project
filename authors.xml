@@ -5,123 +5,123 @@ LIMIT 0, 1000
 "
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-	<row>
-		<field name="authorID">50001</field>
-		<field name="name">J. K. Rowling</field>
-		<field name="gender">F</field>
-	</row>
+	<item>
+		<authorID>50001</authorID>
+		<name>J. K. Rowling</name>
+        <gender>F</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50002</field>
-		<field name="name">Stephen King</field>
-		<field name="gender">M</field>
-	</row>
+	<item>
+		<authorID>50002</authorID>
+		<name>Stephen King</name>
+		<gender>M</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50003</field>
-		<field name="name">Ernest Hemmingway</field>
-		<field name="gender">M</field>
-	</row>
+	<item>
+		<authorID>50003</authorID>
+		<name>Ernest Hemmingway</name>
+		<gender>M</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50004</field>
-		<field name="name">Mark Twain</field>
-		<field name="gender">M</field>
-	</row>
+	<item>
+		<authorID>50004</authorID>
+		<name>Mark Twain</name>
+		<gender>M</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50005</field>
-		<field name="name">Maya Angelou</field>
-		<field name="gender">F</field>
-	</row>
+	<item>
+		<authorID>50005</authorID>
+		<name>Maya Angelou</name>
+		<gender>F</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50006</field>
-		<field name="name">Jane Austen</field>
-		<field name="gender">F</field>
-	</row>
+	<item>
+		<authorID>50006</authorID>
+		<name>Jane Austen</name>
+		<gender>F</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50007</field>
-		<field name="name">Mary Shelley</field>
-		<field name="gender">F</field>
-	</row>
+	<item>
+		<authorID>50007</authorID>
+		<name>Mary Shelley</name>
+		<gender>F</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50008</field>
-		<field name="name">Edgar Allan Poe</field>
-		<field name="gender">M</field>
-	</row>
+	<item>
+		<authorID>50008</authorID>
+		<name>Edgar Allan Poe</name>
+		<gender>M</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50009</field>
-		<field name="name">H. P. Lovecraft</field>
-		<field name="gender">M</field>
-	</row>
+	<item>
+		<authorID>50009</authorID>
+		<name>H. P. Lovecraft</name>
+		<gender>M</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50010</field>
-		<field name="name">Virginia Woolf</field>
-		<field name="gender">F</field>
-	</row>
+	<item>
+		<authorID>50010</authorID>
+		<name>Virginia Woolf</name>
+		<gender>F</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50011</field>
-		<field name="name">Betty Friedan</field>
-		<field name="gender">F</field>
-	</row>
+	<item>
+		<authorID>50011</authorID>
+		<name>Betty Friedan</name>
+		<gender>F</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50012</field>
-		<field name="name">Gloria Steinem</field>
-		<field name="gender">F</field>
-	</row>
+	<item>
+		<authorID>50012</authorID>
+		<name>Gloria Steinem</name>
+		<gender>F</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50013</field>
-		<field name="name">Sigmund Freud</field>
-		<field name="gender">M</field>
-	</row>
+	<item>
+		<authorID>50013</authorID>
+		<name>Sigmund Freud</name>
+		<gender>M</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50014</field>
-		<field name="name">William James</field>
-		<field name="gender">M</field>
-	</row>
+	<item>
+		<authorID>50014</authorID>
+		<name>William James</name>
+		<gender>M</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50015</field>
-		<field name="name">Carl Jung</field>
-		<field name="gender">M</field>
-	</row>
+	<item>
+		<authorID>50015</authorID>
+		<name>Carl Jung</name>
+		<gender>M</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50016</field>
-		<field name="name">Viktor Frankl</field>
-		<field name="gender">M</field>
-	</row>
+	<item>
+		<authorID>50016</authorID>
+		<name>Viktor Frankl</name>
+		<gender>M</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50017</field>
-		<field name="name">Steve Tale</field>
-		<field name="gender">M</field>
-	</row>
+	<item>
+		<authorID>50017</authorID>
+		<name>Steve Tale</name>
+		<gender>M</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50018</field>
-		<field name="name">Daniel Lorig</field>
-		<field name="gender">M</field>
-	</row>
+	<item>
+		<authorID>50018</authorID>
+		<name>Daniel Lorig</name>
+		<gender>M</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50019</field>
-		<field name="name">J. R. R. Tolkien</field>
-		<field name="gender">M</field>
-	</row>
+	<item>
+		<authorID>50019</authorID>
+		<name>J. R. R. Tolkien</name>
+		<gender>M</gender>
+	</item>
 
-	<row>
-		<field name="authorID">50020</field>
-		<field name="name">George R. R. Martin</field>
-		<field name="gender">M</field>
-	</row>
+	<item>
+		<authorID>50020</authorID>
+		<name>George R. R. Martin</name>
+		<gender>M</gender>
+	</item>
 </resultset>

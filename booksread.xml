@@ -1,871 +1,868 @@
 <?xml version="1.0"?>
 
-<resultset statement="select * from tindbook.booksread
-LIMIT 0, 1000
-"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
-	<row>
-		<field name="userID">400001</field>
-		<field name="ISBN">62001</field>
-		<field name="startDate">2018-01-21</field>
-		<field name="finishDate">2018-01-23</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400001</field>
-		<field name="ISBN">62004</field>
-		<field name="startDate">2018-01-30</field>
-		<field name="finishDate">2018-02-01</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400001</field>
-		<field name="ISBN">62014</field>
-		<field name="startDate">2018-01-24</field>
-		<field name="finishDate">2018-01-26</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400001</field>
-		<field name="ISBN">62016</field>
-		<field name="startDate">2018-01-09</field>
-		<field name="finishDate">2018-01-11</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400001</field>
-		<field name="ISBN">62019</field>
-		<field name="startDate">2018-01-14</field>
-		<field name="finishDate">2018-01-16</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400001</field>
-		<field name="ISBN">62022</field>
-		<field name="startDate">2018-02-01</field>
-		<field name="finishDate">2018-02-04</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400001</field>
-		<field name="ISBN">62025</field>
-		<field name="startDate">2018-01-04</field>
-		<field name="finishDate">2018-01-06</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400002</field>
-		<field name="ISBN">62004</field>
-		<field name="startDate">2018-02-03</field>
-		<field name="finishDate">2018-02-05</field>
-		<field name="rating">1</field>
-	</row>
-
-	<row>
-		<field name="userID">400002</field>
-		<field name="ISBN">62005</field>
-		<field name="startDate">2018-01-31</field>
-		<field name="finishDate">2018-02-04</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400002</field>
-		<field name="ISBN">62010</field>
-		<field name="startDate">2018-01-17</field>
-		<field name="finishDate">2018-01-21</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400002</field>
-		<field name="ISBN">62016</field>
-		<field name="startDate">2018-02-12</field>
-		<field name="finishDate">2018-02-16</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400002</field>
-		<field name="ISBN">62017</field>
-		<field name="startDate">2018-02-01</field>
-		<field name="finishDate">2018-02-03</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400002</field>
-		<field name="ISBN">62018</field>
-		<field name="startDate">2018-02-20</field>
-		<field name="finishDate">2018-02-24</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400003</field>
-		<field name="ISBN">62001</field>
-		<field name="startDate">2018-01-28</field>
-		<field name="finishDate">2018-02-01</field>
-		<field name="rating">2</field>
-	</row>
-
-	<row>
-		<field name="userID">400003</field>
-		<field name="ISBN">62003</field>
-		<field name="startDate">2018-01-02</field>
-		<field name="finishDate">2018-01-06</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400003</field>
-		<field name="ISBN">62004</field>
-		<field name="startDate">2018-02-06</field>
-		<field name="finishDate">2018-02-10</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400003</field>
-		<field name="ISBN">62006</field>
-		<field name="startDate">2018-01-18</field>
-		<field name="finishDate">2018-01-22</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400003</field>
-		<field name="ISBN">62014</field>
-		<field name="startDate">2018-02-05</field>
-		<field name="finishDate">2018-02-09</field>
-		<field name="rating">2</field>
-	</row>
-
-	<row>
-		<field name="userID">400003</field>
-		<field name="ISBN">62015</field>
-		<field name="startDate">2018-01-12</field>
-		<field name="finishDate">2018-01-16</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400003</field>
-		<field name="ISBN">62020</field>
-		<field name="startDate">2018-02-04</field>
-		<field name="finishDate">2018-02-08</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400003</field>
-		<field name="ISBN">62021</field>
-		<field name="startDate">2018-01-20</field>
-		<field name="finishDate">2018-01-24</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400004</field>
-		<field name="ISBN">62001</field>
-		<field name="startDate">2018-01-19</field>
-		<field name="finishDate">2018-01-22</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400004</field>
-		<field name="ISBN">62003</field>
-		<field name="startDate">2018-01-29</field>
-		<field name="finishDate">2018-02-01</field>
-		<field name="rating">1</field>
-	</row>
-
-	<row>
-		<field name="userID">400004</field>
-		<field name="ISBN">62004</field>
-		<field name="startDate">2018-01-07</field>
-		<field name="finishDate">2018-01-10</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400004</field>
-		<field name="ISBN">62006</field>
-		<field name="startDate">2018-02-06</field>
-		<field name="finishDate">2018-02-10</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400004</field>
-		<field name="ISBN">62016</field>
-		<field name="startDate">2018-02-11</field>
-		<field name="finishDate">2018-02-14</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400004</field>
-		<field name="ISBN">62018</field>
-		<field name="startDate">2018-02-19</field>
-		<field name="finishDate">2018-02-22</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400004</field>
-		<field name="ISBN">62020</field>
-		<field name="startDate">2018-02-07</field>
-		<field name="finishDate">2018-02-10</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400004</field>
-		<field name="ISBN">62023</field>
-		<field name="startDate">2018-01-03</field>
-		<field name="finishDate">2018-01-07</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400005</field>
-		<field name="ISBN">62004</field>
-		<field name="startDate">2018-01-01</field>
-		<field name="finishDate">2018-01-04</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400005</field>
-		<field name="ISBN">62011</field>
-		<field name="startDate">2018-02-04</field>
-		<field name="finishDate">2018-02-07</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400005</field>
-		<field name="ISBN">62021</field>
-		<field name="startDate">2018-02-02</field>
-		<field name="finishDate">2018-02-05</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400005</field>
-		<field name="ISBN">62025</field>
-		<field name="startDate">2018-01-05</field>
-		<field name="finishDate">2018-01-08</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400006</field>
-		<field name="ISBN">62001</field>
-		<field name="startDate">2018-01-30</field>
-		<field name="finishDate">2018-01-31</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400006</field>
-		<field name="ISBN">62002</field>
-		<field name="startDate">2018-01-26</field>
-		<field name="finishDate">2018-01-27</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400006</field>
-		<field name="ISBN">62007</field>
-		<field name="startDate">2018-02-03</field>
-		<field name="finishDate">2018-02-06</field>
-		<field name="rating">1</field>
-	</row>
-
-	<row>
-		<field name="userID">400006</field>
-		<field name="ISBN">62008</field>
-		<field name="startDate">2018-02-02</field>
-		<field name="finishDate">2018-02-05</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400006</field>
-		<field name="ISBN">62015</field>
-		<field name="startDate">2018-01-28</field>
-		<field name="finishDate">2018-01-29</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400006</field>
-		<field name="ISBN">62019</field>
-		<field name="startDate">2018-01-26</field>
-		<field name="finishDate">2018-01-29</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400007</field>
-		<field name="ISBN">62008</field>
-		<field name="startDate">2018-01-25</field>
-		<field name="finishDate">2018-01-26</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400007</field>
-		<field name="ISBN">62013</field>
-		<field name="startDate">2018-01-18</field>
-		<field name="finishDate">2018-01-19</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400007</field>
-		<field name="ISBN">62016</field>
-		<field name="startDate">2018-01-01</field>
-		<field name="finishDate">2018-01-02</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400007</field>
-		<field name="ISBN">62019</field>
-		<field name="startDate">2018-01-02</field>
-		<field name="finishDate">2018-01-03</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400008</field>
-		<field name="ISBN">62002</field>
-		<field name="startDate">2018-01-05</field>
-		<field name="finishDate">2018-01-10</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400008</field>
-		<field name="ISBN">62015</field>
-		<field name="startDate">2018-02-11</field>
-		<field name="finishDate">2018-02-16</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400008</field>
-		<field name="ISBN">62018</field>
-		<field name="startDate">2018-02-04</field>
-		<field name="finishDate">2018-02-09</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400008</field>
-		<field name="ISBN">62024</field>
-		<field name="startDate">2018-01-23</field>
-		<field name="finishDate">2018-01-28</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400008</field>
-		<field name="ISBN">62026</field>
-		<field name="startDate">2018-02-07</field>
-		<field name="finishDate">2018-02-12</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400009</field>
-		<field name="ISBN">62005</field>
-		<field name="startDate">2018-01-24</field>
-		<field name="finishDate">2018-01-29</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400009</field>
-		<field name="ISBN">62009</field>
-		<field name="startDate">2018-01-19</field>
-		<field name="finishDate">2018-01-24</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400009</field>
-		<field name="ISBN">62014</field>
-		<field name="startDate">2018-02-09</field>
-		<field name="finishDate">2018-02-14</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400009</field>
-		<field name="ISBN">62019</field>
-		<field name="startDate">2018-02-03</field>
-		<field name="finishDate">2018-02-08</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400009</field>
-		<field name="ISBN">62020</field>
-		<field name="startDate">2018-01-24</field>
-		<field name="finishDate">2018-01-29</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400011</field>
-		<field name="ISBN">62002</field>
-		<field name="startDate">2018-02-05</field>
-		<field name="finishDate">2018-02-11</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400011</field>
-		<field name="ISBN">62008</field>
-		<field name="startDate">2018-01-20</field>
-		<field name="finishDate">2018-01-25</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400011</field>
-		<field name="ISBN">62009</field>
-		<field name="startDate">2018-01-26</field>
-		<field name="finishDate">2018-01-31</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400011</field>
-		<field name="ISBN">62016</field>
-		<field name="startDate">2018-01-10</field>
-		<field name="finishDate">2018-01-15</field>
-		<field name="rating">2</field>
-	</row>
-
-	<row>
-		<field name="userID">400011</field>
-		<field name="ISBN">62020</field>
-		<field name="startDate">2018-01-22</field>
-		<field name="finishDate">2018-01-28</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400011</field>
-		<field name="ISBN">62021</field>
-		<field name="startDate">2018-01-14</field>
-		<field name="finishDate">2018-01-19</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400012</field>
-		<field name="ISBN">62001</field>
-		<field name="startDate">2018-02-06</field>
-		<field name="finishDate">2018-02-12</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400012</field>
-		<field name="ISBN">62002</field>
-		<field name="startDate">2018-01-06</field>
-		<field name="finishDate">2018-01-12</field>
-		<field name="rating">1</field>
-	</row>
-
-	<row>
-		<field name="userID">400012</field>
-		<field name="ISBN">62008</field>
-		<field name="startDate">2018-02-07</field>
-		<field name="finishDate">2018-02-13</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400012</field>
-		<field name="ISBN">62009</field>
-		<field name="startDate">2018-01-16</field>
-		<field name="finishDate">2018-01-22</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400013</field>
-		<field name="ISBN">62002</field>
-		<field name="startDate">2018-02-01</field>
-		<field name="finishDate">2018-02-07</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400013</field>
-		<field name="ISBN">62003</field>
-		<field name="startDate">2018-01-14</field>
-		<field name="finishDate">2018-01-20</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400013</field>
-		<field name="ISBN">62005</field>
-		<field name="startDate">2018-01-05</field>
-		<field name="finishDate">2018-01-11</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400013</field>
-		<field name="ISBN">62006</field>
-		<field name="startDate">2018-01-09</field>
-		<field name="finishDate">2018-01-15</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400013</field>
-		<field name="ISBN">62009</field>
-		<field name="startDate">2018-01-11</field>
-		<field name="finishDate">2018-01-17</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400013</field>
-		<field name="ISBN">62014</field>
-		<field name="startDate">2018-01-15</field>
-		<field name="finishDate">2018-01-21</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400013</field>
-		<field name="ISBN">62016</field>
-		<field name="startDate">2018-02-03</field>
-		<field name="finishDate">2018-02-09</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400013</field>
-		<field name="ISBN">62017</field>
-		<field name="startDate">2018-01-04</field>
-		<field name="finishDate">2018-01-10</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400013</field>
-		<field name="ISBN">62018</field>
-		<field name="startDate">2018-02-01</field>
-		<field name="finishDate">2018-02-07</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400014</field>
-		<field name="ISBN">62004</field>
-		<field name="startDate">2018-01-17</field>
-		<field name="finishDate">2018-01-23</field>
-		<field name="rating">1</field>
-	</row>
-
-	<row>
-		<field name="userID">400014</field>
-		<field name="ISBN">62006</field>
-		<field name="startDate">2018-02-10</field>
-		<field name="finishDate">2018-02-16</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400014</field>
-		<field name="ISBN">62008</field>
-		<field name="startDate">2018-02-13</field>
-		<field name="finishDate">2018-02-19</field>
-		<field name="rating">2</field>
-	</row>
-
-	<row>
-		<field name="userID">400014</field>
-		<field name="ISBN">62015</field>
-		<field name="startDate">2018-01-28</field>
-		<field name="finishDate">2018-02-04</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400014</field>
-		<field name="ISBN">62018</field>
-		<field name="startDate">2018-01-03</field>
-		<field name="finishDate">2018-01-10</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400015</field>
-		<field name="ISBN">62002</field>
-		<field name="startDate">2018-02-01</field>
-		<field name="finishDate">2018-02-08</field>
-		<field name="rating">2</field>
-	</row>
-
-	<row>
-		<field name="userID">400015</field>
-		<field name="ISBN">62013</field>
-		<field name="startDate">2018-01-13</field>
-		<field name="finishDate">2018-01-20</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400015</field>
-		<field name="ISBN">62017</field>
-		<field name="startDate">2018-02-10</field>
-		<field name="finishDate">2018-02-17</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400015</field>
-		<field name="ISBN">62018</field>
-		<field name="startDate">2018-01-27</field>
-		<field name="finishDate">2018-02-03</field>
-		<field name="rating">2</field>
-	</row>
-
-	<row>
-		<field name="userID">400015</field>
-		<field name="ISBN">62019</field>
-		<field name="startDate">2018-02-05</field>
-		<field name="finishDate">2018-02-12</field>
-		<field name="rating">1</field>
-	</row>
-
-	<row>
-		<field name="userID">400015</field>
-		<field name="ISBN">62020</field>
-		<field name="startDate">2018-02-11</field>
-		<field name="finishDate">2018-02-18</field>
-		<field name="rating">2</field>
-	</row>
-
-	<row>
-		<field name="userID">400016</field>
-		<field name="ISBN">62022</field>
-		<field name="startDate">2018-01-10</field>
-		<field name="finishDate">2018-01-17</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400016</field>
-		<field name="ISBN">62024</field>
-		<field name="startDate">2018-02-01</field>
-		<field name="finishDate">2018-02-08</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400017</field>
-		<field name="ISBN">62003</field>
-		<field name="startDate">2018-01-31</field>
-		<field name="finishDate">2018-02-07</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400017</field>
-		<field name="ISBN">62005</field>
-		<field name="startDate">2018-01-21</field>
-		<field name="finishDate">2018-01-28</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400017</field>
-		<field name="ISBN">62006</field>
-		<field name="startDate">2018-01-16</field>
-		<field name="finishDate">2018-01-23</field>
-		<field name="rating">2</field>
-	</row>
-
-	<row>
-		<field name="userID">400017</field>
-		<field name="ISBN">62007</field>
-		<field name="startDate">2018-02-02</field>
-		<field name="finishDate">2018-02-09</field>
-		<field name="rating">2</field>
-	</row>
-
-	<row>
-		<field name="userID">400018</field>
-		<field name="ISBN">62002</field>
-		<field name="startDate">2018-01-15</field>
-		<field name="finishDate">2018-01-23</field>
-		<field name="rating">2</field>
-	</row>
-
-	<row>
-		<field name="userID">400018</field>
-		<field name="ISBN">62003</field>
-		<field name="startDate">2018-01-29</field>
-		<field name="finishDate">2018-02-06</field>
-		<field name="rating">2</field>
-	</row>
-
-	<row>
-		<field name="userID">400018</field>
-		<field name="ISBN">62005</field>
-		<field name="startDate">2018-02-08</field>
-		<field name="finishDate">2018-02-16</field>
-		<field name="rating">2</field>
-	</row>
-
-	<row>
-		<field name="userID">400018</field>
-		<field name="ISBN">62017</field>
-		<field name="startDate">2018-02-12</field>
-		<field name="finishDate">2018-02-20</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400018</field>
-		<field name="ISBN">62019</field>
-		<field name="startDate">2018-02-12</field>
-		<field name="finishDate">2018-02-20</field>
-		<field name="rating">1</field>
-	</row>
-
-	<row>
-		<field name="userID">400018</field>
-		<field name="ISBN">62021</field>
-		<field name="startDate">2018-01-11</field>
-		<field name="finishDate">2018-01-19</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400018</field>
-		<field name="ISBN">62023</field>
-		<field name="startDate">2018-01-22</field>
-		<field name="finishDate">2018-01-30</field>
-		<field name="rating">2</field>
-	</row>
-
-	<row>
-		<field name="userID">400019</field>
-		<field name="ISBN">62001</field>
-		<field name="startDate">2018-01-05</field>
-		<field name="finishDate">2018-01-07</field>
-		<field name="rating">2</field>
-	</row>
-
-	<row>
-		<field name="userID">400019</field>
-		<field name="ISBN">62003</field>
-		<field name="startDate">2018-02-09</field>
-		<field name="finishDate">2018-02-11</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400019</field>
-		<field name="ISBN">62006</field>
-		<field name="startDate">2018-01-04</field>
-		<field name="finishDate">2018-01-06</field>
-		<field name="rating">2</field>
-	</row>
-
-	<row>
-		<field name="userID">400019</field>
-		<field name="ISBN">62007</field>
-		<field name="startDate">2018-02-08</field>
-		<field name="finishDate">2018-02-10</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400019</field>
-		<field name="ISBN">62009</field>
-		<field name="startDate">2018-02-07</field>
-		<field name="finishDate">2018-02-09</field>
-		<field name="rating">3</field>
-	</row>
-
-	<row>
-		<field name="userID">400019</field>
-		<field name="ISBN">62012</field>
-		<field name="startDate">2018-01-27</field>
-		<field name="finishDate">2018-01-29</field>
-		<field name="rating">2</field>
-	</row>
-
-	<row>
-		<field name="userID">400019</field>
-		<field name="ISBN">62013</field>
-		<field name="startDate">2018-01-10</field>
-		<field name="finishDate">2018-01-12</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400020</field>
-		<field name="ISBN">62005</field>
-		<field name="startDate">2018-02-06</field>
-		<field name="finishDate">2018-02-08</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400020</field>
-		<field name="ISBN">62017</field>
-		<field name="startDate">2018-01-13</field>
-		<field name="finishDate">2018-01-15</field>
-		<field name="rating">5</field>
-	</row>
-
-	<row>
-		<field name="userID">400020</field>
-		<field name="ISBN">62019</field>
-		<field name="startDate">2018-02-02</field>
-		<field name="finishDate">2018-02-04</field>
-		<field name="rating">1</field>
-	</row>
-
-	<row>
-		<field name="userID">400020</field>
-		<field name="ISBN">62023</field>
-		<field name="startDate">2018-01-08</field>
-		<field name="finishDate">2018-01-10</field>
-		<field name="rating">4</field>
-	</row>
-
-	<row>
-		<field name="userID">400020</field>
-		<field name="ISBN">62026</field>
-		<field name="startDate">2018-02-05</field>
-		<field name="finishDate">2018-02-07</field>
-		<field name="rating">4</field>
-	</row>
+<resultset>
+
+	<item>
+		<userID>400001</userID>
+		<ISBN>62001</ISBN>
+		<startDate>2018-01-21</startDate>
+		<finishDate>2018-01-23</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400001</userID>
+		<ISBN>62004</ISBN>
+		<startDate>2018-01-30</startDate>
+		<finishDate>2018-02-01</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400001</userID>
+		<ISBN>62014</ISBN>
+		<startDate>2018-01-24</startDate>
+		<finishDate>2018-01-26</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400001</userID>
+		<ISBN>62016</ISBN>
+		<startDate>2018-01-09</startDate>
+		<finishDate>2018-01-11</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400001</userID>
+		<ISBN>62019</ISBN>
+		<startDate>2018-01-14</startDate>
+		<finishDate>2018-01-16</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400001</userID>
+		<ISBN>62022</ISBN>
+		<startDate>2018-02-01</startDate>
+		<finishDate>2018-02-04</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400001</userID>
+		<ISBN>62025</ISBN>
+		<startDate>2018-01-04</startDate>
+		<finishDate>2018-01-06</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400002</userID>
+		<ISBN>62004</ISBN>
+		<startDate>2018-02-03</startDate>
+		<finishDate>2018-02-05</finishDate>
+		<rating>1</rating>
+	</item>
+
+	<item>
+		<userID>400002</userID>
+		<ISBN>62005</ISBN>
+		<startDate>2018-01-31</startDate>
+		<finishDate>2018-02-04</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400002</userID>
+		<ISBN>62010</ISBN>
+		<startDate>2018-01-17</startDate>
+		<finishDate>2018-01-21</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400002</userID>
+		<ISBN>62016</ISBN>
+		<startDate>2018-02-12</startDate>
+		<finishDate>2018-02-16</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400002</userID>
+		<ISBN>62017</ISBN>
+		<startDate>2018-02-01</startDate>
+		<finishDate>2018-02-03</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400002</userID>
+		<ISBN>62018</ISBN>
+		<startDate>2018-02-20</startDate>
+		<finishDate>2018-02-24</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400003</userID>
+		<ISBN>62001</ISBN>
+		<startDate>2018-01-28</startDate>
+		<finishDate>2018-02-01</finishDate>
+		<rating>2</rating>
+	</item>
+
+	<item>
+		<userID>400003</userID>
+		<ISBN>62003</ISBN>
+		<startDate>2018-01-02</startDate>
+		<finishDate>2018-01-06</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400003</userID>
+		<ISBN>62004</ISBN>
+		<startDate>2018-02-06</startDate>
+		<finishDate>2018-02-10</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400003</userID>
+		<ISBN>62006</ISBN>
+		<startDate>2018-01-18</startDate>
+		<finishDate>2018-01-22</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400003</userID>
+		<ISBN>62014</ISBN>
+		<startDate>2018-02-05</startDate>
+		<finishDate>2018-02-09</finishDate>
+		<rating>2</rating>
+	</item>
+
+	<item>
+		<userID>400003</userID>
+		<ISBN>62015</ISBN>
+		<startDate>2018-01-12</startDate>
+		<finishDate>2018-01-16</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400003</userID>
+		<ISBN>62020</ISBN>
+		<startDate>2018-02-04</startDate>
+		<finishDate>2018-02-08</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400003</userID>
+		<ISBN>62021</ISBN>
+		<startDate>2018-01-20</startDate>
+		<finishDate>2018-01-24</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400004</userID>
+		<ISBN>62001</ISBN>
+		<startDate>2018-01-19</startDate>
+		<finishDate>2018-01-22</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400004</userID>
+		<ISBN>62003</ISBN>
+		<startDate>2018-01-29</startDate>
+		<finishDate>2018-02-01</finishDate>
+		<rating>1</rating>
+	</item>
+
+	<item>
+		<userID>400004</userID>
+		<ISBN>62004</ISBN>
+		<startDate>2018-01-07</startDate>
+		<finishDate>2018-01-10</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400004</userID>
+		<ISBN>62006</ISBN>
+		<startDate>2018-02-06</startDate>
+		<finishDate>2018-02-10</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400004</userID>
+		<ISBN>62016</ISBN>
+		<startDate>2018-02-11</startDate>
+		<finishDate>2018-02-14</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400004</userID>
+		<ISBN>62018</ISBN>
+		<startDate>2018-02-19</startDate>
+		<finishDate>2018-02-22</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400004</userID>
+		<ISBN>62020</ISBN>
+		<startDate>2018-02-07</startDate>
+		<finishDate>2018-02-10</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400004</userID>
+		<ISBN>62023</ISBN>
+		<startDate>2018-01-03</startDate>
+		<finishDate>2018-01-07</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400005</userID>
+		<ISBN>62004</ISBN>
+		<startDate>2018-01-01</startDate>
+		<finishDate>2018-01-04</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400005</userID>
+		<ISBN>62011</ISBN>
+		<startDate>2018-02-04</startDate>
+		<finishDate>2018-02-07</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400005</userID>
+		<ISBN>62021</ISBN>
+		<startDate>2018-02-02</startDate>
+		<finishDate>2018-02-05</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400005</userID>
+		<ISBN>62025</ISBN>
+		<startDate>2018-01-05</startDate>
+		<finishDate>2018-01-08</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400006</userID>
+		<ISBN>62001</ISBN>
+		<startDate>2018-01-30</startDate>
+		<finishDate>2018-01-31</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400006</userID>
+		<ISBN>62002</ISBN>
+		<startDate>2018-01-26</startDate>
+		<finishDate>2018-01-27</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400006</userID>
+		<ISBN>62007</ISBN>
+		<startDate>2018-02-03</startDate>
+		<finishDate>2018-02-06</finishDate>
+		<rating>1</rating>
+	</item>
+
+	<item>
+		<userID>400006</userID>
+		<ISBN>62008</ISBN>
+		<startDate>2018-02-02</startDate>
+		<finishDate>2018-02-05</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400006</userID>
+		<ISBN>62015</ISBN>
+		<startDate>2018-01-28</startDate>
+		<finishDate>2018-01-29</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400006</userID>
+		<ISBN>62019</ISBN>
+		<startDate>2018-01-26</startDate>
+		<finishDate>2018-01-29</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400007</userID>
+		<ISBN>62008</ISBN>
+		<startDate>2018-01-25</startDate>
+		<finishDate>2018-01-26</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400007</userID>
+		<ISBN>62013</ISBN>
+		<startDate>2018-01-18</startDate>
+		<finishDate>2018-01-19</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400007</userID>
+		<ISBN>62016</ISBN>
+		<startDate>2018-01-01</startDate>
+		<finishDate>2018-01-02</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400007</userID>
+		<ISBN>62019</ISBN>
+		<startDate>2018-01-02</startDate>
+		<finishDate>2018-01-03</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400008</userID>
+		<ISBN>62002</ISBN>
+		<startDate>2018-01-05</startDate>
+		<finishDate>2018-01-10</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400008</userID>
+		<ISBN>62015</ISBN>
+		<startDate>2018-02-11</startDate>
+		<finishDate>2018-02-16</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400008</userID>
+		<ISBN>62018</ISBN>
+		<startDate>2018-02-04</startDate>
+		<finishDate>2018-02-09</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400008</userID>
+		<ISBN>62024</ISBN>
+		<startDate>2018-01-23</startDate>
+		<finishDate>2018-01-28</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400008</userID>
+		<ISBN>62026</ISBN>
+		<startDate>2018-02-07</startDate>
+		<finishDate>2018-02-12</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400009</userID>
+		<ISBN>62005</ISBN>
+		<startDate>2018-01-24</startDate>
+		<finishDate>2018-01-29</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400009</userID>
+		<ISBN>62009</ISBN>
+		<startDate>2018-01-19</startDate>
+		<finishDate>2018-01-24</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400009</userID>
+		<ISBN>62014</ISBN>
+		<startDate>2018-02-09</startDate>
+		<finishDate>2018-02-14</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400009</userID>
+		<ISBN>62019</ISBN>
+		<startDate>2018-02-03</startDate>
+		<finishDate>2018-02-08</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400009</userID>
+		<ISBN>62020</ISBN>
+		<startDate>2018-01-24</startDate>
+		<finishDate>2018-01-29</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400011</userID>
+		<ISBN>62002</ISBN>
+		<startDate>2018-02-05</startDate>
+		<finishDate>2018-02-11</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400011</userID>
+		<ISBN>62008</ISBN>
+		<startDate>2018-01-20</startDate>
+		<finishDate>2018-01-25</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400011</userID>
+		<ISBN>62009</ISBN>
+		<startDate>2018-01-26</startDate>
+		<finishDate>2018-01-31</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400011</userID>
+		<ISBN>62016</ISBN>
+		<startDate>2018-01-10</startDate>
+		<finishDate>2018-01-15</finishDate>
+		<rating>2</rating>
+	</item>
+
+	<item>
+		<userID>400011</userID>
+		<ISBN>62020</ISBN>
+		<startDate>2018-01-22</startDate>
+		<finishDate>2018-01-28</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400011</userID>
+		<ISBN>62021</ISBN>
+		<startDate>2018-01-14</startDate>
+		<finishDate>2018-01-19</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400012</userID>
+		<ISBN>62001</ISBN>
+		<startDate>2018-02-06</startDate>
+		<finishDate>2018-02-12</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400012</userID>
+		<ISBN>62002</ISBN>
+		<startDate>2018-01-06</startDate>
+		<finishDate>2018-01-12</finishDate>
+		<rating>1</rating>
+	</item>
+
+	<item>
+		<userID>400012</userID>
+		<ISBN>62008</ISBN>
+		<startDate>2018-02-07</startDate>
+		<finishDate>2018-02-13</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400012</userID>
+		<ISBN>62009</ISBN>
+		<startDate>2018-01-16</startDate>
+		<finishDate>2018-01-22</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400013</userID>
+		<ISBN>62002</ISBN>
+		<startDate>2018-02-01</startDate>
+		<finishDate>2018-02-07</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400013</userID>
+		<ISBN>62003</ISBN>
+		<startDate>2018-01-14</startDate>
+		<finishDate>2018-01-20</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400013</userID>
+		<ISBN>62005</ISBN>
+		<startDate>2018-01-05</startDate>
+		<finishDate>2018-01-11</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400013</userID>
+		<ISBN>62006</ISBN>
+		<startDate>2018-01-09</startDate>
+		<finishDate>2018-01-15</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400013</userID>
+		<ISBN>62009</ISBN>
+		<startDate>2018-01-11</startDate>
+		<finishDate>2018-01-17</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400013</userID>
+		<ISBN>62014</ISBN>
+		<startDate>2018-01-15</startDate>
+		<finishDate>2018-01-21</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400013</userID>
+		<ISBN>62016</ISBN>
+		<startDate>2018-02-03</startDate>
+		<finishDate>2018-02-09</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400013</userID>
+		<ISBN>62017</ISBN>
+		<startDate>2018-01-04</startDate>
+		<finishDate>2018-01-10</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400013</userID>
+		<ISBN>62018</ISBN>
+		<startDate>2018-02-01</startDate>
+		<finishDate>2018-02-07</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400014</userID>
+		<ISBN>62004</ISBN>
+		<startDate>2018-01-17</startDate>
+		<finishDate>2018-01-23</finishDate>
+		<rating>1</rating>
+	</item>
+
+	<item>
+		<userID>400014</userID>
+		<ISBN>62006</ISBN>
+		<startDate>2018-02-10</startDate>
+		<finishDate>2018-02-16</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400014</userID>
+		<ISBN>62008</ISBN>
+		<startDate>2018-02-13</startDate>
+		<finishDate>2018-02-19</finishDate>
+		<rating>2</rating>
+	</item>
+
+	<item>
+		<userID>400014</userID>
+		<ISBN>62015</ISBN>
+		<startDate>2018-01-28</startDate>
+		<finishDate>2018-02-04</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400014</userID>
+		<ISBN>62018</ISBN>
+		<startDate>2018-01-03</startDate>
+		<finishDate>2018-01-10</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400015</userID>
+		<ISBN>62002</ISBN>
+		<startDate>2018-02-01</startDate>
+		<finishDate>2018-02-08</finishDate>
+		<rating>2</rating>
+	</item>
+
+	<item>
+		<userID>400015</userID>
+		<ISBN>62013</ISBN>
+		<startDate>2018-01-13</startDate>
+		<finishDate>2018-01-20</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400015</userID>
+		<ISBN>62017</ISBN>
+		<startDate>2018-02-10</startDate>
+		<finishDate>2018-02-17</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400015</userID>
+		<ISBN>62018</ISBN>
+		<startDate>2018-01-27</startDate>
+		<finishDate>2018-02-03</finishDate>
+		<rating>2</rating>
+	</item>
+
+	<item>
+		<userID>400015</userID>
+		<ISBN>62019</ISBN>
+		<startDate>2018-02-05</startDate>
+		<finishDate>2018-02-12</finishDate>
+		<rating>1</rating>
+	</item>
+
+	<item>
+		<userID>400015</userID>
+		<ISBN>62020</ISBN>
+		<startDate>2018-02-11</startDate>
+		<finishDate>2018-02-18</finishDate>
+		<rating>2</rating>
+	</item>
+
+	<item>
+		<userID>400016</userID>
+		<ISBN>62022</ISBN>
+		<startDate>2018-01-10</startDate>
+		<finishDate>2018-01-17</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400016</userID>
+		<ISBN>62024</ISBN>
+		<startDate>2018-02-01</startDate>
+		<finishDate>2018-02-08</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400017</userID>
+		<ISBN>62003</ISBN>
+		<startDate>2018-01-31</startDate>
+		<finishDate>2018-02-07</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400017</userID>
+		<ISBN>62005</ISBN>
+		<startDate>2018-01-21</startDate>
+		<finishDate>2018-01-28</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400017</userID>
+		<ISBN>62006</ISBN>
+		<startDate>2018-01-16</startDate>
+		<finishDate>2018-01-23</finishDate>
+		<rating>2</rating>
+	</item>
+
+	<item>
+		<userID>400017</userID>
+		<ISBN>62007</ISBN>
+		<startDate>2018-02-02</startDate>
+		<finishDate>2018-02-09</finishDate>
+		<rating>2</rating>
+	</item>
+
+	<item>
+		<userID>400018</userID>
+		<ISBN>62002</ISBN>
+		<startDate>2018-01-15</startDate>
+		<finishDate>2018-01-23</finishDate>
+		<rating>2</rating>
+	</item>
+
+	<item>
+		<userID>400018</userID>
+		<ISBN>62003</ISBN>
+		<startDate>2018-01-29</startDate>
+		<finishDate>2018-02-06</finishDate>
+		<rating>2</rating>
+	</item>
+
+	<item>
+		<userID>400018</userID>
+		<ISBN>62005</ISBN>
+		<startDate>2018-02-08</startDate>
+		<finishDate>2018-02-16</finishDate>
+		<rating>2</rating>
+	</item>
+
+	<item>
+		<userID>400018</userID>
+		<ISBN>62017</ISBN>
+		<startDate>2018-02-12</startDate>
+		<finishDate>2018-02-20</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400018</userID>
+		<ISBN>62019</ISBN>
+		<startDate>2018-02-12</startDate>
+		<finishDate>2018-02-20</finishDate>
+		<rating>1</rating>
+	</item>
+
+	<item>
+		<userID>400018</userID>
+		<ISBN>62021</ISBN>
+		<startDate>2018-01-11</startDate>
+		<finishDate>2018-01-19</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400018</userID>
+		<ISBN>62023</ISBN>
+		<startDate>2018-01-22</startDate>
+		<finishDate>2018-01-30</finishDate>
+		<rating>2</rating>
+	</item>
+
+	<item>
+		<userID>400019</userID>
+		<ISBN>62001</ISBN>
+		<startDate>2018-01-05</startDate>
+		<finishDate>2018-01-07</finishDate>
+		<rating>2</rating>
+	</item>
+
+	<item>
+		<userID>400019</userID>
+		<ISBN>62003</ISBN>
+		<startDate>2018-02-09</startDate>
+		<finishDate>2018-02-11</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400019</userID>
+		<ISBN>62006</ISBN>
+		<startDate>2018-01-04</startDate>
+		<finishDate>2018-01-06</finishDate>
+		<rating>2</rating>
+	</item>
+
+	<item>
+		<userID>400019</userID>
+		<ISBN>62007</ISBN>
+		<startDate>2018-02-08</startDate>
+		<finishDate>2018-02-10</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400019</userID>
+		<ISBN>62009</ISBN>
+		<startDate>2018-02-07</startDate>
+		<finishDate>2018-02-09</finishDate>
+		<rating>3</rating>
+	</item>
+
+	<item>
+		<userID>400019</userID>
+		<ISBN>62012</ISBN>
+		<startDate>2018-01-27</startDate>
+		<finishDate>2018-01-29</finishDate>
+		<rating>2</rating>
+	</item>
+
+	<item>
+		<userID>400019</userID>
+		<ISBN>62013</ISBN>
+		<startDate>2018-01-10</startDate>
+		<finishDate>2018-01-12</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400020</userID>
+		<ISBN>62005</ISBN>
+		<startDate>2018-02-06</startDate>
+		<finishDate>2018-02-08</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400020</userID>
+		<ISBN>62017</ISBN>
+		<startDate>2018-01-13</startDate>
+		<finishDate>2018-01-15</finishDate>
+		<rating>5</rating>
+	</item>
+
+	<item>
+		<userID>400020</userID>
+		<ISBN>62019</ISBN>
+		<startDate>2018-02-02</startDate>
+		<finishDate>2018-02-04</finishDate>
+		<rating>1</rating>
+	</item>
+
+	<item>
+		<userID>400020</userID>
+		<ISBN>62023</ISBN>
+		<startDate>2018-01-08</startDate>
+		<finishDate>2018-01-10</finishDate>
+		<rating>4</rating>
+	</item>
+
+	<item>
+		<userID>400020</userID>
+		<ISBN>62026</ISBN>
+		<startDate>2018-02-05</startDate>
+		<finishDate>2018-02-07</finishDate>
+		<rating>4</rating>
+	</item>
 </resultset>
