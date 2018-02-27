@@ -5,155 +5,155 @@ LIMIT 0, 1000
 "
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-	<row>
-		<field name="userID">400001</field>
-		<field name="userName">kzaunsch</field>
-		<field name="DOB">1988-05-23</field>
-		<field name="gender">F</field>
-		<field name="email">kzaunsch@asu.edu</field>
-	</row>
+	<item>
+        <userID>400001</userID>
+        <userName>kzaunsch</userName>
+		<DOB>1988-05-23</DOB>
+		<gender>F</gender>
+		<email>kzaunsch@asu.edu</email>
+	</item>
 
-	<row>
-		<field name="userID">400002</field>
-		<field name="userName">jreneer</field>
-		<field name="DOB">1985-01-19</field>
-		<field name="gender">M</field>
-		<field name="email">jreneer@asu.edu</field>
-	</row>
+	<item>
+        <userID>400002</userID>
+		<userName>jreneer</userName>
+		<DOB>1985-01-19</DOB>
+		<gender>M</gender>
+		<email>jreneer@asu.edu</email>
+	</item>
 
-	<row>
-		<field name="userID">400003</field>
-		<field name="userName">rematthe</field>
-		<field name="DOB">1993-11-03</field>
-		<field name="gender">M</field>
-		<field name="email">rematthe@asu.edu</field>
-	</row>
+	<item>
+        <userID>400003</userID>
+		<userName>rematthe</userName>
+		<DOB>1993-11-03</DOB>
+		<gender>M</gender>
+		<email>rematthe@asu.edu</email>
+	</item>
 
-	<row>
-		<field name="userID">400004</field>
-		<field name="userName">nwalsh</field>
-		<field name="DOB">1989-05-16</field>
-		<field name="gender">M</field>
-		<field name="email">nwalsh@asu.edu</field>
-	</row>
+	<item>
+		<userID>400004</userID>
+		<userName>nwalsh</userName>
+		<DOB>1989-05-16</DOB>
+		<gender>M</gender>
+		<email>nwalsh@asu.edu</email>
+	</item>
 
-	<row>
-		<field name="userID">400005</field>
-		<field name="userName">CourtneyAct</field>
-		<field name="DOB">1982-02-18</field>
-		<field name="gender">F</field>
-		<field name="email">chapstickandmascara@gmail.com</field>
-	</row>
+	<item>
+		<userID>400005</userID>
+		<userName>CourtneyAct</userName>
+		<DOB>1982-02-18</DOB>
+		<gender>F</gender>
+		<email>chapstickandmascara@gmail.com</email>
+	</item>
 
-	<row>
-		<field name="userID">400006</field>
-		<field name="userName">WilamBelli</field>
-		<field name="DOB">1982-06-30</field>
-		<field name="gender">M</field>
-		<field name="email">yourtneseemspointed@live.com</field>
-	</row>
+	<item>
+		<userID>400006</userID>
+		<userName>WilamBelli</userName>
+		<DOB>1982-06-30</DOB>
+		<gender>M</gender>
+		<email>yourtneseemspointed@live.com</email>
+	</item>
 
-	<row>
-		<field name="userID">400007</field>
-		<field name="userName">DanielNoriega</field>
-		<field name="DOB">1988-05-23</field>
-		<field name="gender">M</field>
-		<field name="email">hogbody@party.net</field>
-	</row>
+	<item>
+		<userID>400007</userID>
+		<userName>DanielNoriega</userName>
+		<DOB>1988-05-23</DOB>
+		<gender>M</gender>
+		<email>hogbody@party.net</email>
+	</item>
 
-	<row>
-		<field name="userID">400008</field>
-		<field name="userName">RoyHaylock</field>
-		<field name="DOB">1975-06-27</field>
-		<field name="gender">M</field>
-		<field name="email">nottodaysatan@ilovejesus.net</field>
-	</row>
+	<item>
+		<userID>400008</userID>
+		<userName>RoyHaylock</userName>
+		<DOB>1975-06-27</DOB>
+		<gender>M</gender>
+		<email>nottodaysatan@ilovejesus.net</email>
+	</item>
 
-	<row>
-		<field name="userID">400009</field>
-		<field name="userName">JustinHonard</field>
-		<field name="DOB">1985-03-06</field>
-		<field name="gender">M</field>
-		<field name="email">alaska5000@gmail.com</field>
-	</row>
+	<item>
+		<userID>400009</userID>
+		<userName>JustinHonard</userName>
+		<DOB>1985-03-06</DOB>
+		<gender>M</gender>
+		<email>alaska5000@gmail.com</email>
+	</item>
 
-	<row>
-		<field name="userID">400011</field>
-		<field name="userName">SutanAmrull</field>
-		<field name="DOB">1974-06-14</field>
-		<field name="gender">M</field>
-		<field name="email">cliffhanggers@live.com</field>
-	</row>
+	<item>
+		<userID>400011</userID>
+		<userName>SutanAmrull</userName>
+		<DOB>1974-06-14</DOB>
+		<gender>M</gender>
+		<email>cliffhanggers@live.com</email>
+	</item>
 
-	<row>
-		<field name="userID">400012</field>
-		<field name="userName">SharonNeedles</field>
-		<field name="DOB">1981-11-28</field>
-		<field name="gender">F</field>
-		<field name="email">anywherebutalsaka@gmail.com</field>
-	</row>
+	<item>
+		<userID>400012</userID>
+		<userName>SharonNeedles</userName>
+		<DOB>1981-11-28</DOB>
+		<gender>F</gender>
+		<email>anywherebutalsaka@gmail.com</email>
+	</item>
 
-	<row>
-		<field name="userID">400013</field>
-		<field name="userName">JinkxMonsoon</field>
-		<field name="DOB">1987-09-18</field>
-		<field name="gender">F</field>
-		<field name="email">monsoonSeason2016@yahoo.com</field>
-	</row>
+	<item>
+		<userID>400013</userID>
+		<userName>JinkxMonsoon</userName>
+		<DOB>1987-09-18</DOB>
+		<gender>F</gender>
+		<email>monsoonSeason2016@yahoo.com</email>
+	</item>
 
-	<row>
-		<field name="userID">400014</field>
-		<field name="userName">BenDeLaCreme</field>
-		<field name="DOB">1981-09-24</field>
-		<field name="gender">F</field>
-		<field name="email">missCongeniality@gmail.com</field>
-	</row>
+	<item>
+		<userID>400014</userID>
+		<userName>BenDeLaCreme</userName>
+		<DOB>1981-09-24</DOB>
+		<gender>F</gender>
+		<email>missCongeniality@gmail.com</email>
+	</item>
 
-	<row>
-		<field name="userID">400015</field>
-		<field name="userName">VioletChachki</field>
-		<field name="DOB">1992-06-13</field>
-		<field name="gender">F</field>
-		<field name="email">18inchwaist@live.com</field>
-	</row>
+	<item>
+		<userID>400015</userID>
+		<userName>VioletChachki</userName>
+		<DOB>1992-06-13</DOB>
+		<gender>F</gender>
+		<email>18inchwaist@live.com</email>
+	</item>
 
-	<row>
-		<field name="userID">400016</field>
-		<field name="userName">YekaterinaZamolodchikova</field>
-		<field name="DOB">1982-05-01</field>
-		<field name="gender">F</field>
-		<field name="email">contact1997@live.com</field>
-	</row>
+	<item>
+		<userID>400016</userID>
+		<userName>YekaterinaZamolodchikova</userName>
+		<DOB>1982-05-01</DOB>
+		<gender>F</gender>
+		<email>contact1997@live.com</email>
+	</item>
 
-	<row>
-		<field name="userID">400017</field>
-		<field name="userName">TrixieMattel</field>
-		<field name="DOB">1989-08-23</field>
-		<field name="gender">F</field>
-		<field name="email">ohHoney@gmail.com</field>
-	</row>
+	<item>
+		<userID>400017</userID>
+		<userName>TrixieMattel</userName>
+		<DOB>1989-08-23</DOB>
+		<gender>F</gender>
+		<email>ohHoney@gmail.com</email>
+	</item>
 
-	<row>
-		<field name="userID">400018</field>
-		<field name="userName">LaganjaEstranja</field>
-		<field name="DOB">1988-12-28</field>
-		<field name="gender">F</field>
-		<field name="email">missDancingQueen@yahoo.com</field>
-	</row>
+	<item>
+		<userID>400018</userID>
+		<userName>LaganjaEstranja</userName>
+		<DOB>1988-12-28</DOB>
+		<gender>F</gender>
+		<email>missDancingQueen@yahoo.com</email>
+	</item>
 
-	<row>
-		<field name="userID">400019</field>
-		<field name="userName">TimothyWilcots</field>
-		<field name="DOB">1972-02-12</field>
-		<field name="gender">M</field>
-		<field name="email">supitup@live.com</field>
-	</row>
+	<item>
+		<userID>400019</userID>
+		<userName>TimothyWilcots</userName>
+		<DOB>1972-02-12</DOB>
+		<gender>M</gender>
+		<email>supitup@live.com</email>
+	</item>
 
-	<row>
-		<field name="userID">400020</field>
-		<field name="userName">BobTheDragQueen</field>
-		<field name="DOB">1986-06-22</field>
-		<field name="gender">F</field>
-		<field name="email">PurseFirst@gmail.com</field>
-	</row>
+	<item>
+		<userID>400020</userID>
+		<userName>BobTheDragQueen</userName>
+		<DOB>1986-06-22</DOB>
+		<gender>F</gender>
+		<email>PurseFirst@gmail.com</email>
+	</item>
 </resultset>
