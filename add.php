@@ -61,10 +61,10 @@ for ($i=0; $i < $itemCount; $i++){
 /*
 This next section adds USERS to the database
 */
-$xmlDocBooks = new DOMDocument();
-$xmlDocBooks->load("users.xml");
+$xmlDocUsers = new DOMDocument();
+$xmlDocUsers->load("users.xml");
 //Reads XML file
-$xmlObject = $xmlDocBooks->getElementsByTagName('item');
+$xmlObject = $xmlDocUsers->getElementsByTagName('item');
 $itemCount = $xmlObject->length;
 echo $itemCount;
 //iterates through, adding each element to mysql table
@@ -76,6 +76,32 @@ for ($i=0; $i < $itemCount; $i++){
   $email  = $xmlObject->item($i)->getElementsByTagName('email')->item(0)->childNodes->item(0)->nodeValue;
     
   $sql   = "INSERT INTO users (userID, userName, DOB, gender, email) VALUES ('$userID', '$userName', '$DOB',  '$gender', '$email');";
+  
+    if (mysqli_query($con, $sql)) {
+        echo "New record created successfully:".$userID."<br>";
+    } else {
+        echo "Error: " . $sql . "<br>" . mysqli_error($con);
+    }
+}
+
+/*
+This next section adds BooksRead to the database
+*/
+$xmlDocRead = new DOMDocument();
+$xmlDocRead->load("booksread.xml");
+//Reads XML file
+$xmlObject = $xmlDocRead->getElementsByTagName('item');
+$itemCount = $xmlObject->length;
+echo $itemCount;
+//iterates through, adding each element to mysql table
+for ($i=0; $i < $itemCount; $i++){
+  $userID = $xmlObject->item($i)->getElementsByTagName('userID')->item(0)->childNodes->item(0)->nodeValue;
+  $ISBN  = $xmlObject->item($i)->getElementsByTagName('ISBN')->item(0)->childNodes->item(0)->nodeValue;
+  $startDate  = $xmlObject->item($i)->getElementsByTagName('startDate')->item(0)->childNodes->item(0)->nodeValue;
+  $finishDate  = $xmlObject->item($i)->getElementsByTagName('finishDate')->item(0)->childNodes->item(0)->nodeValue;
+  $rating  = $xmlObject->item($i)->getElementsByTagName('rating')->item(0)->childNodes->item(0)->nodeValue;
+    
+  $sql   = "INSERT INTO booksread (userID, ISBN, startDate, finishDate, rating) VALUES ('$userID', '$ISBN', '$startDate',  '$finishDate', '$rating');";
   
     if (mysqli_query($con, $sql)) {
         echo "New record created successfully:".$userID."<br>";
