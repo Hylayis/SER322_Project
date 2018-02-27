@@ -26,4 +26,13 @@ mysqli_query($con, "TRUNCATE TABLE users");
 echo "Users successfully cleared ";
 mysqli_close($con);
 
+echo '<html>
+			    <body>
+			        <form action="index.php" method="get">
+			        <p>User added successfully</p><br>
+			        <input type="submit" value="Return to main page">
+			        </form>
+			    </body>
+			</html>';
+echo $query;
 ?>

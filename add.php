@@ -9,7 +9,15 @@ if (mysqli_connect_errno())
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
 
-
+  echo '<html>
+			    <body>
+			        <form action="index.php" method="get">
+			        <p>User added successfully</p><br>
+			        <input type="submit" value="Return to main page">
+			        </form>
+			    </body>
+			</html>';
+  echo $query;
 /*
 This next section adds AUTHORS to the database
 */
