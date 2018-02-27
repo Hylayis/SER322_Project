@@ -48,4 +48,8 @@
 		</select>
         <input type="submit" id="deleteusers" name="Delete User" value="Delete User">
     </form>
+    <form action="adduser.html"><input type="submit" value="Add New User"></form><br><br>
+    <form action="add.php"><input type="submit" value="Add Data to Tables"></form><br><br>
+    <form action="cleartables.php"><input type="submit" value="Remove All Data From Tables"></form><br><br>
+    
 </html>
