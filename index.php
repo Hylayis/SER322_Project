@@ -5,7 +5,7 @@
     <form action="search.php" method="post">
         <h2>Search</h2>
         Search for a book title or Author:
-        <input type="text" id="keyword">
+        <input type="text" id="keyword" name="keyword">
         <input type="submit" id="search" value="search">
         <br>
     </form>
