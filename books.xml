@@ -5,237 +5,237 @@ LIMIT 0, 1000
 "
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-	<row>
-		<field name="ISBN">62001</field>
-		<field name="title">Harry Potter and the Sorcerer's Stone</field>
-		<field name="author">50001</field>
-		<field name="pages">309</field>
-		<field name="type">F</field>
-		<field name="genre">Fantasy</field>
-	</row>
+	<item>
+		<ISBN>62001</ISBN>
+		<title>Harry Potter and the Sorcerers Stone</title>
+		<author>50001</author>
+		<pages>309</pages>
+		<type>F</type>
+		<genre>Fantasy</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62002</field>
-		<field name="title">Harry Potter And The Chamber Of Secrets</field>
-		<field name="author">50001</field>
-		<field name="pages">341</field>
-		<field name="type">F</field>
-		<field name="genre">Fantasy</field>
-	</row>
+	<item>
+		<ISBN>62002</ISBN>
+		<title>Harry Potter And The Chamber Of Secrets</title>
+		<author>50001</author>
+		<pages>341</pages>
+		<type>F</type>
+		<genre>Fantasy</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62003</field>
-		<field name="title">The Outsider </field>
-		<field name="author">50002</field>
-		<field name="pages">576</field>
-		<field name="type">M</field>
-		<field name="genre">Horror</field>
-	</row>
+	<item>
+		<ISBN>62003</ISBN>
+		<title>The Outsider </title>
+		<author>50002</author>
+		<pages>576</pages>
+		<type>M</type>
+		<genre>Horror</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62004</field>
-		<field name="title">The Shining</field>
-		<field name="author">50002</field>
-		<field name="pages">688</field>
-		<field name="type">M</field>
-		<field name="genre">Horror</field>
-	</row>
+	<item>
+		<ISBN>62004</ISBN>
+		<title>The Shining</title>
+		<author>50002</author>
+		<pages>688</pages>
+		<type>M</type>
+		<genre>Horror</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62005</field>
-		<field name="title">The Old Man and The Sea</field>
-		<field name="author">50003</field>
-		<field name="pages">128</field>
-		<field name="type">M</field>
-		<field name="genre">Classics</field>
-	</row>
+	<item>
+		<ISBN>62005</ISBN>
+		<title>The Old Man and The Sea</title>
+		<author>50003</author>
+		<pages>128</pages>
+		<type>M</type>
+		<genre>Classics</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62006</field>
-		<field name="title">For Whom the Bell Tolls</field>
-		<field name="author">50003</field>
-		<field name="pages">480</field>
-		<field name="type">M</field>
-		<field name="genre">Classics</field>
-	</row>
+	<item>
+		<ISBN>62006</ISBN>
+		<title>For Whom the Bell Tolls</title>
+		<author>50003</author>
+		<pages>480</pages>
+		<type>M</type>
+		<genre>Classics</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62007</field>
-		<field name="title">The Adventures of Huckleberry Finn</field>
-		<field name="author">50004</field>
-		<field name="pages">320</field>
-		<field name="type">M</field>
-		<field name="genre">Classics</field>
-	</row>
+	<item>
+		<ISBN>62007</ISBN>
+		<title>The Adventures of Huckleberry Finn</title>
+		<author>50004</author>
+		<pages>320</pages>
+		<type>M</type>
+		<genre>Classics</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62008</field>
-		<field name="title">I Know Why the Caged Bird Sings</field>
-		<field name="author">50005</field>
-		<field name="pages">304</field>
-		<field name="type">F</field>
-		<field name="genre">Classics</field>
-	</row>
+	<item>
+		<ISBN>62008</ISBN>
+		<title>I Know Why the Caged Bird Sings</title>
+		<author>50005</author>
+		<pages>304</pages>
+		<type>F</type>
+		<genre>Classics</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62009</field>
-		<field name="title">Mom & Me & Mom </field>
-		<field name="author">50005</field>
-		<field name="pages">244</field>
-		<field name="type">F</field>
-		<field name="genre">Family Relations</field>
-	</row>
+	<item>
+		<ISBN>62009</ISBN>
+		<title>Mom and Me and Mom </title>
+		<author>50005</author>
+		<pages>244</pages>
+		<type>F</type>
+		<genre>Family Relations</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62010</field>
-		<field name="title">Sense and Sensibility</field>
-		<field name="author">50006</field>
-		<field name="pages">368</field>
-		<field name="type">F</field>
-		<field name="genre">Classics</field>
-	</row>
+	<item>
+		<ISBN>62010</ISBN>
+		<title>Sense and Sensibility</title>
+		<author>50006</author>
+		<pages>368</pages>
+		<type>F</type>
+		<genre>Classics</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62011</field>
-		<field name="title">Mansfield Park</field>
-		<field name="author">50006</field>
-		<field name="pages">480</field>
-		<field name="type">F</field>
-		<field name="genre">Victorian</field>
-	</row>
+	<item>
+		<ISBN>62011</ISBN>
+		<title>Mansfield Park</title>
+		<author>50006</author>
+		<pages>480</pages>
+		<type>F</type>
+		<genre>Victorian</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62012</field>
-		<field name="title">The Last Man</field>
-		<field name="author">50007</field>
-		<field name="pages">432</field>
-		<field name="type">F</field>
-		<field name="genre">Classics</field>
-	</row>
+	<item>
+		<ISBN>62012</ISBN>
+		<title>The Last Man</title>
+		<author>50007</author>
+		<pages>432</pages>
+		<type>F</type>
+		<genre>Classics</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62013</field>
-		<field name="title">Frankenstein </field>
-		<field name="author">50007</field>
-		<field name="pages">166</field>
-		<field name="type">F</field>
-		<field name="genre">Folk Tales</field>
-	</row>
+	<item>
+		<ISBN>62013</ISBN>
+		<title>Frankenstein </title>
+		<author>50007</author>
+		<pages>166</pages>
+		<type>F</type>
+		<genre>Folk Tales</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62014</field>
-		<field name="title">Edgar Allan Poe: Complete Tales and Poems</field>
-		<field name="author">50008</field>
-		<field name="pages">864</field>
-		<field name="type">M</field>
-		<field name="genre">Classics</field>
-	</row>
+	<item>
+		<ISBN>62014</ISBN>
+		<title>Edgar Allan Poe Complete Tales and Poems</title>
+		<author>50008</author>
+		<pages>864</pages>
+		<type>M</type>
+		<genre>Classics</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62015</field>
-		<field name="title">The Call of Cthulhu and Other Weird Stories</field>
-		<field name="author">50009</field>
-		<field name="pages">368</field>
-		<field name="type">M</field>
-		<field name="genre">Horror</field>
-	</row>
+	<item>
+		<ISBN>62015</ISBN>
+		<title>The Call of Cthulhu and Other Weird Stories</title>
+		<author>50009</author>
+		<pages>368</pages>
+		<type>M</type>
+		<genre>Horror</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62016</field>
-		<field name="title">A Room of One's Own</field>
-		<field name="author">50010</field>
-		<field name="pages">128</field>
-		<field name="type">F</field>
-		<field name="genre">Feminist</field>
-	</row>
+	<item>
+		<ISBN>62016</ISBN>
+		<title>A Room of Ones Own</title>
+		<author>50010</author>
+		<pages>128</pages>
+		<type>F</type>
+		<genre>Feminist</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62017</field>
-		<field name="title">The Feminine Mystique</field>
-		<field name="author">50011</field>
-		<field name="pages">592</field>
-		<field name="type">F</field>
-		<field name="genre">Feminist</field>
-	</row>
+	<item>
+		<ISBN>62017</ISBN>
+		<title>The Feminine Mystique</title>
+		<author>50011</author>
+		<pages>592</pages>
+		<type>F</type>
+		<genre>Feminist</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62018</field>
-		<field name="title">My Life on the Road</field>
-		<field name="author">50012</field>
-		<field name="pages">352</field>
-		<field name="type">F</field>
-		<field name="genre">Feminist</field>
-	</row>
+	<item>
+		<ISBN>62018</ISBN>
+		<title>My Life on the Road</title>
+		<author>50012</author>
+		<pages>352</pages>
+		<type>F</type>
+		<genre>Feminist</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62019</field>
-		<field name="title">Civilization and Its Discontents</field>
-		<field name="author">50013</field>
-		<field name="pages">192</field>
-		<field name="type">M</field>
-		<field name="genre">Psychoanalysis</field>
-	</row>
+	<item>
+		<ISBN>62019</ISBN>
+		<title>Civilization and Its Discontents</title>
+		<author>50013</author>
+		<pages>192</pages>
+		<type>M</type>
+		<genre>Psychoanalysis</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62020</field>
-		<field name="title">William James: In the Maelstrom of American Modernism</field>
-		<field name="author">50014</field>
-		<field name="pages">656</field>
-		<field name="type">M</field>
-		<field name="genre">Philosophers</field>
-	</row>
+	<item>
+		<ISBN>62020</ISBN>
+		<title>William James: In the Maelstrom of American Modernism</title>
+		<author>50014</author>
+		<pages>656</pages>
+		<type>M</type>
+		<genre>Philosophers</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62021</field>
-		<field name="title">Man and His Symbols</field>
-		<field name="author">50015</field>
-		<field name="pages">415</field>
-		<field name="type">M</field>
-		<field name="genre">Psychoanalysis</field>
-	</row>
+	<item>
+		<ISBN>62021</ISBN>
+		<title>Man and His Symbols</title>
+		<author>50015</author>
+		<pages>415</pages>
+		<type>M</type>
+		<genre>Psychoanalysis</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62022</field>
-		<field name="title">Man's Search for Meaning</field>
-		<field name="author">50016</field>
-		<field name="pages">184</field>
-		<field name="type">M</field>
-		<field name="genre">Psychotherapy</field>
-	</row>
+	<item>
+		<ISBN>62022</ISBN>
+		<title>Mans Search for Meaning</title>
+		<author>50016</author>
+		<pages>184</pages>
+		<type>M</type>
+		<genre>Psychotherapy</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62023</field>
-		<field name="title">Python: The Ultimate Beginners Guide: Start Coding Today</field>
-		<field name="author">50017</field>
-		<field name="pages">234</field>
-		<field name="type">M</field>
-		<field name="genre">Programing</field>
-	</row>
+	<item>
+		<ISBN>62023</ISBN>
+		<title>Python: The Ultimate Beginners Guide: Start Coding Today</title>
+		<author>50017</author>
+		<pages>234</pages>
+		<type>M</type>
+		<genre>Programing</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62024</field>
-		<field name="title">Java Programming for Beginners: Learn Programming without Previous Knowledge</field>
-		<field name="author">50018</field>
-		<field name="pages">122</field>
-		<field name="type">M</field>
-		<field name="genre">Programing</field>
-	</row>
+	<item>
+		<ISBN>62024</ISBN>
+		<title>Java Programming for Beginners: Learn Programming without Previous Knowledge</title>
+		<author>50018</author>
+		<pages>122</pages>
+		<type>M</type>
+		<genre>Programing</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62025</field>
-		<field name="title">The Fellowship of the Ring</field>
-		<field name="author">50019</field>
-		<field name="pages">432</field>
-		<field name="type">M</field>
-		<field name="genre">Fantasy</field>
-	</row>
+	<item>
+		<ISBN>62025</ISBN>
+		<title>The Fellowship of the Ring</title>
+		<author>50019</author>
+		<pages>432</pages>
+		<type>M</type>
+		<genre>Fantasy</genre>
+	</item>
 
-	<row>
-		<field name="ISBN">62026</field>
-		<field name="title">A Knight of the Seven Kingdoms</field>
-		<field name="author">50020</field>
-		<field name="pages">368</field>
-		<field name="type">M</field>
-		<field name="genre">Fantasy</field>
-	</row>
+	<item>
+		<ISBN>62026</ISBN>
+		<title>A Knight of the Seven Kingdoms</title>
+		<author>50020</author>
+		<pages>368</pages>
+		<type>M</type>
+		<genre>Fantasy</genre>
+	</item>
 </resultset>
