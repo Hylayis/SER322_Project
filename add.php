@@ -58,7 +58,35 @@ for ($i=0; $i < $itemCount; $i++){
     }
 }
 
+/*
+This next section adds USERS to the database
+*/
+$xmlDocBooks = new DOMDocument();
+$xmlDocBooks->load("users.xml");
+//Reads XML file
+$xmlObject = $xmlDocBooks->getElementsByTagName('item');
+$itemCount = $xmlObject->length;
+echo $itemCount;
+//iterates through, adding each element to mysql table
+for ($i=0; $i < $itemCount; $i++){
+  $userID = $xmlObject->item($i)->getElementsByTagName('userID')->item(0)->childNodes->item(0)->nodeValue;
+  $userName  = $xmlObject->item($i)->getElementsByTagName('userName')->item(0)->childNodes->item(0)->nodeValue;
+  $DOB  = $xmlObject->item($i)->getElementsByTagName('DOB')->item(0)->childNodes->item(0)->nodeValue;
+  $gender  = $xmlObject->item($i)->getElementsByTagName('gender')->item(0)->childNodes->item(0)->nodeValue;
+  $email  = $xmlObject->item($i)->getElementsByTagName('email')->item(0)->childNodes->item(0)->nodeValue;
+    
+  $sql   = "INSERT INTO users (userID, userName, DOB, gender, email) VALUES ('$userID', '$userName', '$DOB',  '$gender', '$email');";
+  
+    if (mysqli_query($con, $sql)) {
+        echo "New record created successfully:".$userID."<br>";
+    } else {
+        echo "Error: " . $sql . "<br>" . mysqli_error($con);
+    }
+}
 
+
+
+//Closes Connection
     mysqli_close($con);
 
 ?>
