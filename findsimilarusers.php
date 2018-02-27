@@ -8,7 +8,7 @@
   // create short variable names - needs updated with input names from HTML
 
   //$searchtype=$_POST['similarusers'];
-  $searchterm=trim($_POST['similarusers']);
+  $searchterm=trim($_POST['findusers']);
 
     /*
   if (!$searchtype || !$searchterm) {
@@ -40,7 +40,6 @@
         AND T1.rating = T2.rating
         GROUP BY userName
         */
-            
 
   $query = "SELECT distinct u.userName, u.DoB, u.email, u.gender, count(*) as numMatches
   FROM BooksRead T1, BooksRead T2, Users u
@@ -53,7 +52,7 @@
   $result = $db->query($query);
 
   $num_results = $result->num_rows;
-
+	
       /*
   if ($num_results>0){
         echo "<p>Number of Users found: ".$num_results."</p>";
@@ -75,10 +74,10 @@
   echo "<p>Number of Users found: ".$num_results."</p>";
 
       //needs updated to proper table for Users 
-  for ($i=0; $i <$num_results; $i++) {
-     $row = $result->fetch_assoc();
+
+  while ($row = $result -> fetch_array()) {
      echo "<p><strong>".($i+1).". User Name: ";
-     echo htmlspecialchars(stripslashes($row['username']));
+     echo (stripslashes($row['userName']));
      echo "</strong><br />Date of Birth: ";
      echo stripslashes($row['DoB']);
      echo "<br />Email: ";

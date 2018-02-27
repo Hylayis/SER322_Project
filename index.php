@@ -12,7 +12,7 @@
     <form action="findsimilarusers.php" method="post">
         <h3>Find Similar Users</h3>
         Select a user: <br>
-        <select id="findusers">
+        <select id="findusers" name="findusers">
 			<?php
 				 require 'bhconnect.php';
 				 $query = "SELECT userID, userName FROM Users";
