@@ -1,0 +1,16 @@
+<html>
+    <title>Add New User</title>
+    <body>
+    <h3>Add a new user</h3>
+        <form action="insertuser.php" method="post">
+            Name: <input type="text" name="username" required pattern="[A-Za-z\s]+"> <br>
+            Email: <input type="email" name="email" required> <br>
+            Birthday: <input type="date" name="DOB" required><br>
+            Gender: <select name="gender">
+                <option value="M">M</option>
+                <option value="F">F</option>
+            </select><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
