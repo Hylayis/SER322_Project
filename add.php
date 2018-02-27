@@ -30,6 +30,7 @@ for ($i=0; $i < $itemCount; $i++){
     } else {
         echo "Error: " . $sql . "<br>" . mysqli_error($con);
     }
+
 }
 
 /*
@@ -69,6 +70,7 @@ $itemCount = $xmlObject->length;
 echo $itemCount;
 //iterates through, adding each element to mysql table
 for ($i=0; $i < $itemCount; $i++){
+
   $userID = $xmlObject->item($i)->getElementsByTagName('userID')->item(0)->childNodes->item(0)->nodeValue;
   $userName  = $xmlObject->item($i)->getElementsByTagName('userName')->item(0)->childNodes->item(0)->nodeValue;
   $DOB  = $xmlObject->item($i)->getElementsByTagName('DOB')->item(0)->childNodes->item(0)->nodeValue;
@@ -83,6 +85,7 @@ for ($i=0; $i < $itemCount; $i++){
         echo "Error: " . $sql . "<br>" . mysqli_error($con);
     }
 }
+
 
 /*
 This next section adds BooksRead to the database
@@ -109,6 +112,7 @@ for ($i=0; $i < $itemCount; $i++){
         echo "Error: " . $sql . "<br>" . mysqli_error($con);
     }
 }
+
 
 
 

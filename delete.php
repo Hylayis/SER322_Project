@@ -10,8 +10,17 @@
         
         $response = @mysqli_query($dbc, $query);
         
-        echo $query . "<br>";
-        echo $response;
+        if($response){
+        	echo '<html>
+			    <body>
+			        <form action="index.php" method="get">
+			        <p>User removed successfully</p><br>
+			        <input type="submit" value="Return to main page">
+			        </form>
+			    </body>
+			</html>';
+        	echo $query;
+		}
         ?>
     </body>
 </html>
