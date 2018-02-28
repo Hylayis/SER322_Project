@@ -29,7 +29,7 @@ For example, it should look like the following:
 ; extension_dir = "./"
 ; On windows:
 extension_dir = "C:\php7\ext"
-;extension=php_mysql.dll
+extension=php_mysql.dll
 extension=php_mysqli.dll
 ```
 
@@ -53,4 +53,39 @@ Connect to that database by entering:
 ```
 and then entering password: supersecure
 
-You are now connected. The next step is to create the tables and database. 
+You are now connected. The next step is to create the database:
+Enter the following code:
+```
+create database bookharmony;
+show databases;
+use bookharmony;
+```
+This will create the database bookharmony and get you into the Book Harmony Database. The next step is to add the tables into the database.
+
+Enter the following code: 
+```
+CREATE TABLE Authors(authorID INT(6) NOT NULL PRIMARY KEY, name CHAR(50), gender CHAR(1));
+CREATE TABLE Users (userID INT(6) NOT NULL PRIMARY KEY, userName CHAR(50), DOB DATE, gender CHAR(1), email CHAR(100));
+CREATE TABLE BooksRead (userID INT(6) NOT NULL, ISBN INT(11) NOT NULL, startDate DATE, finishDate DATE, rating DECIMAL(2,1), primary key(userID, ISBN));
+CREATE TABLE Books (ISBN CHAR(11) NOT NULL PRIMARY KEY, title CHAR(100), author CHAR(50), pages INT(4), type CHAR(1), genre CHAR(30));
+```
+
+This will create your tables. 
+
+The next step is to add the data to the tables. In order to this, we have created a tool in order to take the XML files and put them into the database. 
+__NOTE: The database must be set up using the appropriate name and password or else it will not work properly.__
+
+First step is to download the .xml files, as well as add.php and cleartables.php. Place those files into the same folder. 
+In order to run, open a command window in the folder where those files are contained. What you will be doing is run the php.exe program alongside the add.php files. __Again, the .xml and .php files must be in the same folder.__
+The following code (in your command terminnal) will only work if these are the locations of your php.exe and add.php files. Adjust according to your own preferences and set up. Also, it was tested with Windows 10. Note, it is just two file names next to each other. The first one is for the php.exe file, and the second is for the add.php file.
+```
+C:\php7\php.exe C:\users\user\ser322_project\add.php
+```
+
+This should automatically populate your database with the data from the xml files. If you'd like to clear your databse, do the same proceedure, only use the cleartables.php instead of the add.php file. For example:
+```
+C:\php7\php.exe C:\users\user\ser322_project\cleartables.php
+```
+Your set up should be complete after this. Keep in mind, that you do need to have data in your database in order to get the program to run. 
+
+#Running the Program
