@@ -11,8 +11,7 @@ if (mysqli_connect_errno())
 
   echo '<html>
 			    <body>
-			        <form action="index.php" method="get">
-			        <p>User added successfully</p><br>
+			        <form action="index.php" method="get">			        
 			        <input type="submit" value="Return to main page">
 			        </form>
 			    </body>
