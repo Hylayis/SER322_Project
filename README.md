@@ -72,7 +72,10 @@ CREATE TABLE Books (ISBN CHAR(11) NOT NULL PRIMARY KEY, title CHAR(100), author 
 
 This will create your tables. 
 
-The next step is to add the data to the tables. In order to this, we have created a tool in order to take the XML files and put them into the database. 
+The next step is to add the data to the tables. This can be skipped and done through the application, or completed manually, as laid out in the directions below. If you choose to do it in the application, you should just be able to click the ADD DATA button at the bottom, or REMOVE DATA FROM TABLES buttons to clear the information and start with tables with no additional data in them. PLEASE NOTE: In order to do this, you must have full permissions on your user, as it uses the TRUNCATE function. Directions on how to do that are listed here:
+https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql
+
+Do populate the tables, we have created a tool in order to take the XML files and put them into the database. 
 __NOTE: The database must be set up using the appropriate name and password or else it will not work properly.__
 
 First step is to download the .xml files, as well as add.php and cleartables.php. Place those files into the same folder. 
@@ -93,4 +96,4 @@ To run the program simply place all of the php,html and xml files in your apache
 ```
 C:\Apache24\htdocs. 
 ```
-Then open your browser and navigate to http://localhost/index.php. This should take you to the home page.
+Then open your browser and navigate to http://localhost/index.php. This should take you to the home page. NOTE: If you changed your server to 8080, you may have to type in the link as http://localhost:8080/index.php
