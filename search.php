@@ -15,8 +15,8 @@
 
             //$query = htmlspecialchars($query); //html to equivalent
             //$query = mysql_real_escape_string($query); //prevents SQL injections
-        	$qstring = "SELECT * FROM Books WHERE title LIKE '%".$query."%'
-						OR (author LIKE '%".$query."%')
+        	$qstring = "SELECT * FROM Books JOIN Authors on(Books.author=Authors.authorID) WHERE title LIKE '%".$query."%'
+						OR (Authors.name LIKE '%".$query."%')
                 		OR (ISBN LIKE '%".$query."%')
                 		OR (type LIKE '%".$query."%')
                			OR (genre LIKE '%".$query."%')";
@@ -29,7 +29,11 @@
                 // populates array
                 while($row = mysqli_fetch_array($response)) {
                     
-                    echo "<p><h3>".$row['title']."</h3>".$row['author']."</p>";
+                    echo "<p><h3>".$row['title']."</h3>".
+                		"Author: ".$row['name']."<br>".
+                		"Pages: ".$row['pages']."<br>".
+						"Genre: ".$row['genre']."<br>".
+						"ISBN: ".$row['ISBN']."<br></p>";
                 }
                     
             }else{ echo "No results"; }
