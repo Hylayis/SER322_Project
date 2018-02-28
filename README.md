@@ -89,3 +89,4 @@ C:\php7\php.exe C:\users\user\ser322_project\cleartables.php
 Your set up should be complete after this. Keep in mind, that you do need to have data in your database in order to get the program to run. 
 
 #Running the Program
+To run the program simply place all of the php,html and xml files in your apache server directory, in our setup this was C:\Apache24\htdocs. Then open your browser and navigate to http://localhost/index.php. This should take you to the home page.
