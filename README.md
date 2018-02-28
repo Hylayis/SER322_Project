@@ -1,23 +1,23 @@
-# SER322_Project
+# SER322_Project_BookHarmony
 Class Project for SER322
 Team Members: 
-Rudy Matthews
-Joseph Reneer
-Nicholas Walsh
+Rudy Matthews,
+Joseph Reneer,
+Nicholas Walsh,
 Karen Zaunscherb
 
 
 # Set Up Procedures
-This project is run using MySQL, Apache 2.4, and PHP 7. In order to run the program successfully on your computer, you must have all three properly installed on your system. 
+This project is run using MySQL, Apache 2.4.25, and PHP 7.2.2. In order to run the program successfully on your computer, you must have all three properly installed on your system. 
 Below are links for how to install each of the 3 systems. 
 
-## Apache 2.4 and PHP 7
+## Apache 2.4.25 and PHP 7.2.2
 Detailed directions for installation of Apache and PHP7 can be found at the link below:
 https://danielarancibia.wordpress.com/2015/09/27/installing-apache-2-4-and-php-7-for-development-on-windows/
 
-Once those directions are followed, verify it by using the testing proceedures listed in the above page.
+Once those directions are followed, verify it's working by using the testing proceedures listed in the above page.
 
-After that, ensure that you have php_mysql.dll and php_mysqli.dll files in your PHP ext library, as well as ensure that they are enabled. 
+After that, ensure that you have php_mysql.dll and php_mysqli.dll files in your PHP ext library, as well as ensuring that they are enabled. 
 The dll files should be located in the php7/ext folder. If not, you may have to download your php7 again or download those modules again. 
 Also, ensure that your php.ini file has been updated. This means you may have to go into the file. 
 Ensure that you have commented out the appropriate line for where loadable extensions (modules) reside. 
