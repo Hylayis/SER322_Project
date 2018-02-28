@@ -7,7 +7,7 @@ Nicholas Walsh
 Karen Zaunscherb
 
 
-# Set Up Proceedures
+# Set Up Procedures
 This project is run using MySQL, Apache 2.4, and PHP 7. In order to run the program successfully on your computer, you must have all three properly installed on your system. 
 Below are links for how to install each of the 3 systems. 
 
@@ -88,7 +88,7 @@ C:\php7\php.exe C:\users\user\ser322_project\cleartables.php
 ```
 Your set up should be complete after this. Keep in mind, that you do need to have data in your database in order to get the program to run. 
 
-##Running the Program
+## Running the Program
 To run the program simply place all of the php,html and xml files in your apache server directory, in our setup this was 
 ```
 C:\Apache24\htdocs. 
